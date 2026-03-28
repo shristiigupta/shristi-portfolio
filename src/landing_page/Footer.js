@@ -23,20 +23,23 @@ export default function Footer() {
         <div className="footer-contact">
           <span>
             <i className="fa-solid fa-phone"></i>
-             9871800624
+            9871800624
           </span>
           <span>
             <i className="fa-solid fa-envelope"></i>
-             shreya.gupta.0624@gmail.com
+            shreya.gupta.0624@gmail.com
           </span>
         </div>
       </div>
-      
-      <div className="footer-links">
-        <a href="#">Leetcode</a>
-        <a href="#">HackerRank</a>
-      </div>
-      
+
+      <a href="https://leetcode.com/shristi-gupta" target="_blank" rel="noopener noreferrer">
+        Leetcode
+      </a>
+
+      <a href="https://www.hackerrank.com/shristi-gupta" target="_blank" rel="noopener noreferrer">
+        HackerRank
+      </a>
+
       <div className="footer-copyright">
         © Copyright 2025 Made by Shreya
       </div>

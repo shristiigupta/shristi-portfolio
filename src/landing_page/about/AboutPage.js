@@ -1,11 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 import Typewriter from "typewriter-effect";
 import "./AboutPage.css";
 import SkillsGlassBoxes from "./SkillsGlassBoxes";
 import ExperienceTimeline from "./ExperienceTimeline";
 
 function AboutPage() {
-    const [activeTab, setActiveTab] = useState("skills");
 
     return (
         <div className="about-container">
