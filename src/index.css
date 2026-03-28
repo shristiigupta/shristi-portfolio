@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  background: #020f23;
+  color: white; /* optional, for contrast */
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.nav-link{
+  margin-left: 40px;
+}

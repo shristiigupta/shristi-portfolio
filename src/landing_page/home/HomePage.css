@@ -1,0 +1,67 @@
+.hero {
+  background: #020f23;
+  padding-top: 100px;
+  min-height: 100vh;
+}
+
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 150px;
+  color: #fff;
+}
+
+.text h1 {
+  font-size: 3rem;
+  font-family: "Times New Roman", serif;
+}
+
+.text p {
+  margin-top: 20px;
+  font-size: 1.1rem;
+  max-width: 500px;
+}
+
+.image img {
+  width: 350px;
+  border-radius: 10px;
+}
+
+.social-icons {
+  margin-top: 20px;
+}
+
+.icon {
+  margin-right: 20px;
+  font-size: 2rem;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.icon:hover {
+  color: #5094d8;
+}
+
+.download-btn {
+  display: inline-block;
+  background-color: #fff;
+  color: #000;
+  font-weight: bolder;
+  padding: 12px 26px; 
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.download-btn:hover {
+  background-color: #4e3b3b;
+  transform: scale(1.03);
+}
+
+.download-container {
+  margin-top: 30px; /* Adjust the spacing as needed */
+}

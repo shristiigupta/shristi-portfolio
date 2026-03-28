@@ -1,0 +1,106 @@
+.timeline-section {
+  max-width: 1000px;
+  margin: 50px auto 60px auto; /* extra margin for spacing below */
+  padding: 0 18px;
+  position: relative;
+  z-index: 1;
+}
+
+.timeline-title {
+  color: #fff;
+  font-size: 2.3rem;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.timeline-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 42px;
+  margin-bottom: 32px;
+}
+
+.timeline-tab {
+  background: none; border: none;
+  font-size: 1.17rem;
+  font-weight: 700;
+  cursor: pointer;
+  opacity: 0.5;
+  padding: 5px 12px 10px 0;
+  transition: opacity 0.16s;
+}
+
+.timeline-tab.active, .timeline-tab:hover { opacity: 1; }
+.timeline-tab-label { font-family: inherit;}
+
+.timeline-container {
+  position: relative;
+  padding: 44px 0 16px 0;
+  min-height: 0;
+}
+
+.timeline-line {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: 4px;
+  height: 100%;
+  background: linear-gradient(180deg, #6d5eea 30%, #a182fa 80%);
+  z-index: 0;
+  border-radius: 7px;
+}
+
+.timeline-item {
+  width: 49%;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 52px;
+  position: relative;
+}
+
+.timeline-item-left {
+  justify-content: flex-end; text-align: right;
+  left: 0;
+}
+.timeline-item-right {
+  justify-content: flex-start; text-align: left;
+  left: 51%;
+}
+.timeline-dot {
+  width: 19px; height: 19px;
+  background: #764ecf;
+  border-radius: 50%;
+  border: 4px solid #fff;
+  margin: 20px 20px 4px 20px;
+  box-shadow: 0 2.5px 11px #a182fa35;
+  position: relative;
+  z-index: 1;
+}
+
+.timeline-item-left .timeline-dot { margin-right: 12px; }
+.timeline-item-right .timeline-dot { margin-left: 12px; }
+.timeline-card { background: none; }
+.timeline-degree {
+  font-size: 1.05rem; font-weight: 700; color: #fff;
+}
+.timeline-institution {
+  color: #fff; margin-bottom: 2px; font-size: 1.01rem;
+}
+.timeline-date {
+  color: #fff; font-size: 0.98rem; margin-top: 5px; font-weight: 500;
+}
+.timeline-desc { color: #fff; font-size: 0.97rem; margin-top: 6px; }
+.timeline-date i { margin-right: 7px; color: #836dfa; }
+
+@media (max-width: 700px) {
+  .timeline-container { min-height: 0; }
+  .timeline-item, .timeline-item-left, .timeline-item-right {
+    width: 98%; margin-left: 0 !important; left: 0 !important;
+    text-align: left !important; justify-content: flex-start !important;
+  }
+  .timeline-line { left: 12px; transform: none; }
+  .timeline-dot { margin: 0 15px 0 0; }
+}
+
