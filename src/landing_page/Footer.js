@@ -31,14 +31,8 @@ export default function Footer() {
           </span>
         </div>
       </div>
-
-      <a href="https://leetcode.com/shristi-gupta" target="_blank" rel="noopener noreferrer">
-        Leetcode
-      </a>
-
-      <a href="https://www.hackerrank.com/shristi-gupta" target="_blank" rel="noopener noreferrer">
-        HackerRank
-      </a>
+      
+      
 
       <div className="footer-copyright">
         © Copyright 2025 Made by Shristi

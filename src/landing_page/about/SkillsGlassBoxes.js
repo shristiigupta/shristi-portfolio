@@ -11,37 +11,31 @@ const skillsGroups = [
   {
     label: "Programming Languages",
     icons: [
-      "/icons/python.png", "/icons/java.png", "/icons/r.png", "/icons/cpp.png", "/icons/c.png", "/icons/matlab.jpeg"
+       "/icons/cpp.png", "/icons/python.png", "/icons/java.png", "/icons/r.png", "/icons/c.png", "/icons/matlab.jpeg"
     ]
   },
   {
     label: "Data Structures and Object-Oriented Programming",
     icons: [
-      "/icons/java.png", "/icons/cpp.png"
+      "/icons/cpp.png", "/icons/java.png"
+    ]
+  },  
+  {
+    label: "MERN stack Web Dev",
+    icons: [
+      "/icons/React.jpg", "/icons/MongoDB.png", "/icons/Express.png", "/icons/node.png", "/icons/HTML5.png", "/icons/css3.png",  "/icons/mysql.png"
     ]
   },
   {
     label: "Machine Learning Frameworks",
     icons: [
-      "/icons/tf.png", "/icons/pytorch.webp", "/icons/scikit.png", "/icons/keras.png", "/icons/scipy.png", "/icons/pickle.png"
+      "/icons/tf.png", "/icons/pytorch.webp", "/icons/scikit.png", "/icons/keras.png"
     ]
   },
   {
     label: "Convolutional Neural Network (CNN) Models",
     icons: [
-      "/icons/vgg.avif", "/icons/densenet.svg", "/icons/mobilenet.svg"
-    ]
-  },
-  {
-    label: "Image Processing",
-    icons: [
-      "/icons/pillow.png", "/icons/opencv.svg", "/icons/scikit.png", "/icons/scipy.png", "/icons/simpleitk.png"
-    ]
-  },
-  {
-    label: "Object Detection Models",
-    icons: [
-      "/icons/yolo.png"
+      "/icons/vgg.avif", "/icons/Densenet.png", "/icons/mobilenet.webp"
     ]
   },
   {
@@ -51,15 +45,9 @@ const skillsGroups = [
     ]
   },
   {
-    label: "Full Stack Web Dev",
-    icons: [
-      "/icons/HTML5.png", "/icons/css3.png", "/icons/Bootstrap.jpeg", "/icons/django.png", "/icons/flask.png", "/icons/streamlit.png", "/icons/mysql.png"
-    ]
-  },
-  {
     label: "Databases",
     icons: [
-      "/icons/sql.png", "/icons/mysql.png"
+       "/icons/MongoDB.png", "/icons/sql.png", "/icons/mysql.png"
     ]
   },
   {
@@ -72,7 +60,7 @@ const skillsGroups = [
   {
     label: "Networking and Security tools",
     icons: [
-      "/icons/cpt.png", "/icons/wireshark.png", "/icons/johntheripper.png", "/icons/ngrok.png", "/icons/steghide.png"
+      "/icons/cpt.png"
     ]
   }
 ];

@@ -15,7 +15,7 @@ function AboutPage() {
                     <span className="typed-text">
                         <Typewriter
                             options={{
-                                strings: ["Shristi"],
+                                strings: ["Shristi Gupta"],
                                 autoStart: true,
                                 loop: true,
                                 delay: 100,
@@ -27,15 +27,11 @@ function AboutPage() {
                 </div>
                 <div className="output-box">
                     <p>
-                        Passionate and dedicated aspiring AI/ML developer with a strong desire
-                        to leverage my skills, knowledge, and enthusiasm for technology.
-                        Committed to contributing to the company's mission of fostering
-                        innovation by developing real-world projects. Seeking to gain valuable
-                        real-world experience to further enhance my skills while showcasing
-                        communication and presentation abilities.
+                        Passionate full-stack MERN developer and aspiring AI/ML engineer with a strong drive to apply my technical skills and problem-solving abilities to real-world challenges. Committed to building scalable web applications and intelligent systems that foster innovation and create impact. Eager to gain hands-on industry experience, continuously enhance my knowledge, and effectively showcase my communication and presentation skills while contributing to organizational growth.
+
                     </p>
                 </div>
-            
+
             </div>
             <h2 className="skills-section-title">Skills</h2>
             <SkillsGlassBoxes />
