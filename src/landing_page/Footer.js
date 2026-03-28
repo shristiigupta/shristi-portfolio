@@ -2,8 +2,8 @@ import React from "react";
 import "./Footer.css";
 
 const socials = [
-  { icon: "fa-brands fa-linkedin-in", url: "https://www.linkedin.com/in/shreya-gupta-7a641b235/" },
-  { icon: "fa-brands fa-github", url: "https://github.com/SHREYA-1103" }
+  { icon: "fa-brands fa-linkedin-in", url: "https://www.linkedin.com/in/gupta-shristi/" },
+  { icon: "fa-brands fa-github", url: "https://github.com/shristiigupta" }
 ];
 
 export default function Footer() {
@@ -23,11 +23,11 @@ export default function Footer() {
         <div className="footer-contact">
           <span>
             <i className="fa-solid fa-phone"></i>
-            9871800624
+            9205222406
           </span>
           <span>
             <i className="fa-solid fa-envelope"></i>
-            shreya.gupta.0624@gmail.com
+            shristi.gupta.406@gmail.com
           </span>
         </div>
       </div>
@@ -41,7 +41,7 @@ export default function Footer() {
       </a>
 
       <div className="footer-copyright">
-        © Copyright 2025 Made by Shreya
+        © Copyright 2025 Made by Shristi
       </div>
     </footer>
   );

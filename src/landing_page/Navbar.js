@@ -8,7 +8,7 @@ function Navbar() {
             className="navbar navbar-expand-lg">
             <div className="container p-2">
                 <Link className="navbar-brand" to="/">
-                    <div className="brand">Shreya Gupta</div>
+                    <div className="brand">Shristi Gupta</div>
                 </Link>
                 <button
                     className="navbar-toggler"

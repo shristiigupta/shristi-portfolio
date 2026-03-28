@@ -12,13 +12,13 @@ function HomePage() {
     <section className="hero">
       <div className="hero-content">
         <div className="text">
-          <h1>Shreya<br />AI/ML Engineer</h1>
+          <h1>Shristi<br/>Full Stack MERN Developer</h1>
           <p>
-            I'm a dedicated aspiring AI/ML developer with a strong desire to leverage my skills, knowledge, and enthusiasm for technology.
+            I'm a dedicated aspiring Full Stack MERN developer with a strong desire to leverage my skills, knowledge, and enthusiasm for technology.
           </p>
           <div className="social-icons">
             <a
-              href="https://github.com/SHREYA-1103"
+              href="https://github.com/shristiigupta"
               target="_blank"
               rel="noopener noreferrer"
               className="icon"
@@ -26,7 +26,7 @@ function HomePage() {
               <FontAwesomeIcon icon={faGithub} />
             </a>
             <a
-              href="https://www.linkedin.com/in/shreya-gupta-7a641b235/"
+              href="https://www.linkedin.com/in/gupta-shristi/"
               target="_blank"
               rel="noopener noreferrer"
               className="icon"
@@ -35,14 +35,14 @@ function HomePage() {
             </a>            
           </div>
           <div className="download-container">
-              <a href="/docs/shreya_cv.pdf" download className="download-btn">
+              <a href="/docs/cv_shristi.pdf" download className="download-btn">
                     Download CV
             </a>
           </div>
         </div>
 
         <div className="image">
-          <img src={profilePic} alt="Shreya" />
+          <img src={profilePic} alt="Shristi" />
         </div>
 
         

@@ -2,55 +2,40 @@ import React, { useState } from "react";
 import "./ExperienceTimeline.css";
 
 const educationData = [
+  
   {
-    title: "M.Tech CSE",
-    institution: "IIIT, Bangalore",
-    date: "July 2025 - Jul 2027"
-  },
-  {
-    title: "B.Tech CSE",
+    title: "Int. MTech Software Engineering",
     institution: "VIT, Vellore",
-    date: "Sep 2021 - Jul 2025",
-    description: "CGPA: 9.73"
+    date: "Aug 2023 - Jul 2028",
+    description: "CGPA: 9.46"
   },
   {
     title: "Class 12 (CBSE)",
     institution: "",
-    date: "Mar 2020 - Jun 2021",
-    description: "97.6%"
+    date: "Mar 2022 - Jun 2023",
+    description: "90.2%"
   },
   {
     title: "Class 10 (CBSE)",
     institution: "",
-    date: "Mar 2018 - Apr 2019",
-    description: "97.8%"
+    date: "Mar 2020 - Apr 2021",
+    description: "95.8%"
   }
 ];
 
 const experienceData = [
   {
-    title: "Analyst Intern",
-    institution: "Bain & Company, Bangalore, Karnataka",
-    date: "Jan 2025 – July 2025",
-    
-  },
-  {
-    title: "Research Intern",
+    title: "Research & Development Intern",
     institution: "DRDO, New Delhi",
-    date: "June 2024 – Aug 2024",
+    date: "May 2025 – Jun 2025",
     
   },
   {
-    title: "Student Research Intern (PRISM)",
-    institution: "Samsung R&D Institute India, Bangalore",
-    date: "Dec 2023 – Apr. 2024",
+    title: "Frontend Developer",
+    institution: "The BearBone (Startup VIT, Vellore)",
+    date: "Jun 2024 – Sep 2024",
     
-  },
-  {
-    title: "Computer Vision Intern",
-    institution: "Immertivity (Stealth Start-up), Bangalore",
-    date: "Sep. 2023 – Nov. 2023",
-  }
+  }  
 ];
 
 export default function ExperienceTimeline() {

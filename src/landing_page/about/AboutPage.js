@@ -15,7 +15,7 @@ function AboutPage() {
                     <span className="typed-text">
                         <Typewriter
                             options={{
-                                strings: ["Shreya"],
+                                strings: ["Shristi"],
                                 autoStart: true,
                                 loop: true,
                                 delay: 100,
