@@ -8,71 +8,29 @@ import "./AchievementsPage.css";
 
 const achievements = [
   {
-    title: "Program Representative 2022-23",
-    desc: "Awarded for serving as Program Representative of Computer Science with Bioinformatics branch for the academic session 22-23",
+    title: "Program Representative 2024-25",
+    desc: "Awarded for serving as Program Representative of Software Engineering branch for the academic session 22-23",
     image: "images/vit.jpg",
-    link: "docs/pr23.pdf",
+    link: "https://drive.google.com/file/d/1KW3km6yKEAjAfChl3gih8njD9GpdPpKG/view?usp=sharing",
   },
   {
-    title: "Merit Scholarship 2023",
-    desc: "Awarded merit scholarship for securing first rank in the branch during the academic session 2022-23",
+    title: "Merit Scholarship 2024-25",
+    desc: "Awarded merit scholarship for securing Eighth rank in the branch during the academic session 2022-23",
     image: "images/vit.jpg",
-    link: "docs/scholarship23.pdf",
+    link: "https://drive.google.com/file/d/1KcT-WoIkMKNKpAIhgMSPj6iS6jSuVDLo/view?usp=sharing",
   },
   {
-    title: "Merit Scholarship 2022",
-    desc: "Awarded merit scholarship for securing first rank in the branch during the academic session 2021-22",
+    title: "Merit Scholarship 2023-24",
+    desc: "Awarded merit scholarship for securing first rank in the branch during the academic session 2023-24",
     image: "images/vit.jpg",
-    link: "docs/scholarship22.pdf",
+    link: "https://drive.google.com/file/d/1f5dLg9OnJqCOSdtiMqpaVI_HXQvN1HUR/view?usp=sharing",
   },
   {
-    title: "Program Representative 2021-22",
-    desc: "Awarded for serving as Program Representative of Computer Science with Bioinformatics branch for the academic session 21-22",
+    title: "Ecovision Hackathon, VIT Vellore",
+    desc: "Secured 2nd position at EcoVision Hackathon 2023 (5th Pillar, VIT)",
     image: "images/vit.jpg",
-    link: "docs/pr22.pdf",
-  },
-  {
-    title: "VinHack 2022",
-    desc: "Participated in VinHack 2022, hackathon organized by vinnovateIT, VIT",
-    image: "images/vinnovateIT.jpg",
-    link: "docs/vinhack22.pdf",
-  },
-  {
-    title: "Smart India Hackathon 2022",
-    desc: "Represented VIT in Smart India Hackathon 2022, hackathon by GoI at regional level",
-    image: "images/sih.jpg",
-    link: "docs/sih22.pdf",
-  },
-  {
-    title: "KPMG Ideation Challenge 2022",
-    desc: "Participated in KPMG Ideation Challenge 2022, ideathon organized by KPMG International",
-    image: "images/kpmg.jpg",
-    link: "docs/kic22.pdf",
-  },
-  {
-    title: "Mimamsa 2022",
-    desc: "Participated in the prelims of Mimamsa 2022, Science quiz organized by IISER Pune",
-    image: "images/iiserPune.jpg",
-    link: "docs/mimamsa.pdf",
-  },
-  {
-    title: "Pharma Challenge 2022",
-    desc: "Secured 2nd position in Pharma challenge 2022, ideation challenge organized by IIT Madras",
-    image: "images/iitm.jpg",
-    link: "docs/pharma.pdf",
-  },
-  {
-    title: "Bhoomi: A Hack for Earth",
-    desc: "Secured 1st position in Bhoomi: A Hack for Earth, hackathon organized by Alpha Bio Club, VIT",
-    image: "images/abc.jpg",
-    link: "docs/bhoomi.pdf",
-  },
-  {
-    title: "Other Awards",
-    desc: "Awarded for outstanding academics, leadership, and commendable extracurricular accomplishments during school life",
-    image: "images/sts.png",
-    link: "docs/otherawards.pdf",
-  },
+    link: "https://drive.google.com/file/d/1-5RcUS9Gx_zYzCANkZWqbSAL_lIBEjzB/view?usp=sharingf",
+  }
 ];
 
 function AchievementsPage() {
